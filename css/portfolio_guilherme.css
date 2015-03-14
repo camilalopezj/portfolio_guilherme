@@ -27,20 +27,31 @@ p{
 	margin: 0px auto;
 }
 
-#main_image {
+#slider{
 	width: 960px;
 	height: 300px;
 }
 
 #content{
 	width: 960px;
+	height: 300px;
 }
 
-.column_left, .column_rigth{
+.column_data, .column_gallery{
 
-	width: 460px;
-	margin: 10px;
+	width: 480px;
+	height: 300px;
 	float: left;
+}
+.column_data_photo{
+	width: 230px;
+	float: left;
+}
+
+.column_data_text{
+	width: 230px;
+	float: left;
+
 }
 
 .mini1, .mini2, .mini3, .mini4, .mini5, .mini6{
