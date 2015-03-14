@@ -1,0 +1,77 @@
+/* Coloque as suas regras de css aqui embaixo */
+h1{
+	font-family: 'Open Sans';
+	font-size: 22px;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+	margin: 0px;
+	padding-top: 15px;
+}
+
+p{
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: black;
+	text-align: justify;
+}
+
+#header {
+	width: 960px;
+	height: 200px;
+
+}
+
+#main{
+	width: 960px;
+	margin: 0px auto;
+}
+
+#main_image {
+	width: 960px;
+	height: 300px;
+}
+
+#content{
+	width: 960px;
+}
+
+.column_left, .column_rigth{
+
+	width: 460px;
+	margin: 10px;
+	float: left;
+}
+
+.mini1, .mini2, .mini3, .mini4, .mini5, .mini6{
+	width: 150px;
+	height: 100px;
+	float: left;
+	margin: 30px;
+	border: 10px solid white;
+}
+
+.mini1{
+	transform: rotate(-10deg);
+}
+.mini2{
+	transform: rotate(10deg);
+}
+.mini3{
+	transform: rotate(10deg);
+}
+.mini4{
+	transform: rotate(-10deg);
+}
+.mini5{
+	transform: rotate(-10deg);
+}
+.mini6{
+	transform: rotate(10deg);
+}
+
+#footer{
+	background-image: url("../img/background-header-e-footer.png");
+	height: 60px;
+	clear: both;
+}
