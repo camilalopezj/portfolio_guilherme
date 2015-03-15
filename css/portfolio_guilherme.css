@@ -1,7 +1,7 @@
 /* Coloque as suas regras de css aqui embaixo */
 h1{
 	font-family: 'Open Sans';
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: normal;
 	color: white;
 	text-align: left;
@@ -9,14 +9,6 @@ h1{
 	padding-top: 15px;
 }
 
-h2{
-	font-family: 'Open Sans';
-	font-size: 20px;
-	font-weight: normal;
-	color: white;
-	text-align: left;
-	
-}
 
 p{
 	font-family: 'Open Sans';
