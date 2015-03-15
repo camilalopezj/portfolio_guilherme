@@ -29,7 +29,8 @@ p{
 
 #slider{
 	width: 960px;
-	height: 300px;
+	height: 350px;
+	background-color: black;
 }
 
 #content{
@@ -54,35 +55,9 @@ p{
 
 }
 
-.mini1, .mini2, .mini3, .mini4, .mini5, .mini6{
-	width: 150px;
-	height: 100px;
+.image1, .image2, .image3, .image4{
+	width: 200px;
+	height: 150px;
 	float: left;
-	margin: 30px;
-	border: 10px solid white;
-}
-
-.mini1{
-	transform: rotate(-10deg);
-}
-.mini2{
-	transform: rotate(10deg);
-}
-.mini3{
-	transform: rotate(10deg);
-}
-.mini4{
-	transform: rotate(-10deg);
-}
-.mini5{
-	transform: rotate(-10deg);
-}
-.mini6{
-	transform: rotate(10deg);
-}
-
-#footer{
-	background-image: url("../img/background-header-e-footer.png");
-	height: 60px;
-	clear: both;
+	margin: 10px;
 }
